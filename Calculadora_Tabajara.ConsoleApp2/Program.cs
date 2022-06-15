@@ -78,5 +78,6 @@ namespace Calculadora_Tabajara.ConsoleApp2
         // heeeeeeeeeeeeeyyyyyyyyyyyyyyyyyyyyaaaaaaaaaaaaaa
         // ola teste novamente 2
         ///teste pra crachar
+        // hello rapeize partiu fiextaaa
     }
 }
