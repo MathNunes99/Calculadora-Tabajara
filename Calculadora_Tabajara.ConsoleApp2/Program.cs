@@ -7,7 +7,7 @@ namespace Calculadora_Tabajara.ConsoleApp2
         public static void Main(string[] args)
         {
             string opcao = "";
-            
+            Operacoes operacao = new Operacoes();
             while (opcao != "s")
             {
                 int valor1 = 0;
@@ -23,7 +23,8 @@ namespace Calculadora_Tabajara.ConsoleApp2
                     Console.WriteLine("Digite um valor correto");
                     opcao = Console.ReadLine();
                 }
-
+                if (opcao == "s")
+                    break;
                 Console.WriteLine("Digite o valor 1");
                 int.TryParse(Console.ReadLine(), out valor1);
                 Console.WriteLine("Digite o valor 2");
@@ -32,7 +33,7 @@ namespace Calculadora_Tabajara.ConsoleApp2
                 switch (opcao)
                 {
                     case "1":
-                        resultado = valor1 + valor2;
+                        resultado = operacao.Somar(valor1, valor2);
                         break;
                     case "2":
                         resultado = valor1 - valor2;
@@ -48,9 +49,10 @@ namespace Calculadora_Tabajara.ConsoleApp2
                         }
                         else                        
                             resultado = valor1 / valor2;
-                        
                         break;
+                
                 }
+                
                 if (opcao == "4" && resultado == 0)
                 {
                     Console.Clear();
@@ -73,6 +75,7 @@ namespace Calculadora_Tabajara.ConsoleApp2
             Console.WriteLine("Digite '2' para SUBTRAIR");
             Console.WriteLine("Digite '3' para MULTIPLICAR");
             Console.WriteLine("Digite '4' para DIVIDIR");
+            Console.WriteLine("Digite 's' para sair");
         }
         //teste da zicaaa
         // heeeeeeeeeeeeeyyyyyyyyyyyyyyyyyyyyaaaaaaaaaaaaaa
