@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora_Tabajara.ConsoleApp2", "Calculadora_Tabajara.ConsoleApp2\Calculadora_Tabajara.ConsoleApp2.csproj", "{5AC39141-E061-4027-BF84-A552261EE2A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AC39141-E061-4027-BF84-A552261EE2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AC39141-E061-4027-BF84-A552261EE2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AC39141-E061-4027-BF84-A552261EE2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AC39141-E061-4027-BF84-A552261EE2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66E681E7-7FB5-4DF6-B70A-CA87276F5C64}
+	EndGlobalSection
+EndGlobal
